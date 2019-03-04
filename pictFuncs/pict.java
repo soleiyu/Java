@@ -21,8 +21,8 @@ public class pict
 		for(int x = 0; x < w; x++)
 			for(int y = 0; y < h; y++)
 			{
-		    px[x][y][0] = 255;
-		    px[x][y][1] = 0;
+				px[x][y][0] = 255;
+				px[x][y][1] = 0;
 				px[x][y][2] = 0;
 				px[x][y][3] = 0;
 			}
@@ -42,7 +42,7 @@ public class pict
 		height = h;
 
 		for(int y = 0; y < h; y++)
-	    for(int x = 0; x < w; x++)
+			for(int x = 0; x < w; x++)
 			{
 				px[x][y][0] = a;
 				px[x][y][1] = r;
@@ -64,11 +64,11 @@ public class pict
 		for(int y = 0; y < height; y++)
 			for(int x = 0; x < width; x++)
 			{
-		    int color = img.getRGB(x, y);
-		    px[x][y][0] = a(color);
-		    px[x][y][1] = r(color);
-		    px[x][y][2] = g(color);
-		    px[x][y][3] = b(color);
+				int color = img.getRGB(x, y);
+				px[x][y][0] = a(color);
+				px[x][y][1] = r(color);
+				px[x][y][2] = g(color);
+				px[x][y][3] = b(color);
 			}
 	
 	//	System.out.println("FileOpenDone.");
