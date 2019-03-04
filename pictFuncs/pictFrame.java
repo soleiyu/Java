@@ -29,7 +29,7 @@ public class pictFrame
 	p_org.open(args[0] + "/" + files[otherUtil.getRand(files.length)].getName());
 
 	//Make Frame 1st p
-  pict p_t = frame.mkShadow(frame.mkFrame(tone.light(tone.vivid(p_org)), 15), 15);
+  	pict p_t = frame.mkShadow(frame.mkFrame(tone.light(tone.vivid(p_org)), 15), 15);
 	System.out.println("PrepareDone.");
 
 	for (int i = 0; i < files.length; i++) {
